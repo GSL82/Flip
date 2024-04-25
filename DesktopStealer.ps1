@@ -35,7 +35,7 @@ New-Item -Path $env:tmp/$FolderName -ItemType Directory
 ############################################################################################################################################################
 
 # Recon all User Directories
-copy-item %Desktop%\Test\* -destination $env:TMP\$FolderName\
+copy-item %userprofile%Desktop\Test\* -destination $env:TMP\$FolderName\
 
 
 ############################################################################################################################################################
