@@ -35,7 +35,7 @@ New-Item -Path $env:tmp/$FolderName -ItemType Directory
 ############################################################################################################################################################
 
 # Recon all User Directories
-copy-item -path $home\Music\* -destination $env:TMP\$FolderName\ -recursive
+copy-item -path "$home\Music\*" -destination "$env:TMP\$FolderName\" -recursive
 
 
 ############################################################################################################################################################
